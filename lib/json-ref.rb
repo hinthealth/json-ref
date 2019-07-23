@@ -2,8 +2,6 @@ require 'json'
 require 'hana'
 
 class JSONRef
-  VERSION = '0.3'.freeze
-
   def initialize(document, **options)
     @document = document
     @refs = []
